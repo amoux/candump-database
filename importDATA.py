@@ -1,6 +1,5 @@
-/* Open and parse the data log with the following commented code that turns the log file into data Python data structures.
- *
- */
+#Open and parse the data log with the following commented code that turns the log file into data Python data structures.
+
  
 fileHandle=open('DDEC10 20321029.xls','r') #Opens the log file of interest
 datalines=fileHandle.readlines() #reads the logfile contents into memory as a list
